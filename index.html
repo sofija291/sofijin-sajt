@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Školske novine</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1c0414e5dc.js" crossorigin="anonymous"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      ntegrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigacija-->
+    <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="#" class="logo">
+                <img src="/skola.jpg" alt="Schule" />
+              </a>
+            </div>
+      <!-- Linkovi-->
+            <div class="col-md-6">
+              <ul class="navbar">
+                <li><a href="https://srednjaskoladrvar.com/">Početna</a></li>
+                <li><a href="#customers">Mladi novinari</a></li>
+                <li><a href="#last-container">Novosti</a></li>
+              </ul>
+            </div>
+          </div>
+          
+      <div class="language-switch germany">
+        <button id="languageButton" onclick="promijeniJezik()">DE</button>
+      </div>
+      </div>
+    </header>
+ 
+    <section class="home" id="home">
+      <div class="home-text">
+          <div class="bijelatraka">
+            <h1>
+              Započnite i ovu sedmicu <br />
+              uz školske novosti
+            </h1>
+          </div>
+      </div>
+    </section>  
+
+    <!-- about -->
+    <section class="customers" id="customers">
+      <div class="heading">
+        <h2>Mišljenje naših mladih novinara</h2>
+      </div>
+      <!-- Container-->
+
+      <div class="customers-container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="testimonials box"> 
+              <p>
+              Sjajno je što su Etrafika web novine pružile priliku nama učenicima
+              da pokažemo svoje talente i interesovanja. Provedeno vreme u "Pecka
+              Visitor Center" bilo je izuzetno korisno, omogućavajući nam da
+              steknemo dragocjeno iskustvo i znanje o novinarskoj profesiji. Osjećam
+              se motivisano da se dalje bavim novinarstvom.
+              </p>
+              <h2>Anja Krneta</h2>
+              <img src="/anja.png" alt="Anjina slika" />
+            </div>
+          </div>
+        
+          
+            <div class="col-md-4">
+              <div class=" testimonials box">
+                <p>
+                Etrafika web novine su zaista promjenile naš pogled na novinarstvo.
+                Zahvaljujući njima, otkrio sam svoju strast prema pisanju i
+                istraživanju. Posjeta "Pecka Visitor Center" bila je inspirativna i
+                edukativna, pružajući nam uvid u svet novinarstva na način koji ne
+                možemo doživeti u učionici.
+                </p>
+                <h2>Miloš Medarević</h2>
+                <img src="/milos.png" alt="Miloseva slika" />
+              </div>
+            </div>
+
+
+            <div class="col-md-4">  
+              <div class="testimonials box">
+                <p>
+                Etrafika web novine su za našu školsku zajednicu pravo osvježenje. Osim
+                što su nam omogućili da razvijamo svoje vještine u novinarstvu,
+                posjeta "Pecka Visitor Center" bila je izuzetno inspirativna. Učenje
+                o novinarskom radu iz prve ruke doprinjelo je mom ličnom razvoju, te sam zahvalna što sam imala priliku biti dio ovog iskustva.
+                </p>
+                <h2>Aleksandra Srdić</h2>
+                <img src="/aleks.png" alt="Aleksandrina slika" />
+              </div>
+            </div>  
+        </div>
+      </div>
+    </section>
+
+    <div class="last-container" id="last-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="paragrafski-div">
+              <h2>Izložba fotografija u Drvaru</h2>
+              <p>"Proteklih šest mjeseci ekipa eTrafike je organizovala obuku onlajn i foto-novinarstva za 15 mladih ljudi iz Mrkonjić Grada, Ribnika, Jajca, Bosanskog Petrovca, Bosanskog Grahova, Drvara i Glamoča. Nakon intenzivne obuke, oni su vrijedno radili na tekstovima iz svojih sredina, koje možete da pronađete u našoj rubici “Može i drugačije”. Pronalazili su ljude iz svoje okoline koji rade nešto konkretno sa svojim životom i odbijaju da se prepuste opštoj letargiji i nezainteresovanosti." Izjavila je o mladim novinarima naše škole etrafika, a više o tekstu možete pronaći na linku: <a class="izlozbalink" href="https://www.etrafika.net/moze-i-drugacije/92195/rezervisite-termin-izlozba-fotografija-sajam-i-promocija-casopisa-u-drvaru/?fbclid=IwAR0xtriKlk8ArNqD6WK2pTIiRNZfQppOlAtCiyBTZG8n-UECVayaUm3CHPY">etrafika.net</a>
+
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- Drugi div s slikom --> <!--
+            <div class="img-div">
+              <img src="./../img2/novinari.jpg" class="imgg" alt="Slika novinara">
+            </div>
+          -->
+
+          <div class="skrol-container">
+            <div class="skrol-slike">
+              <img src="/izlozby1.jpg" alt="Slika 2">
+              <img src="/izlozby2.jpg" alt="Slika 3">
+              <img src="/izlozby3.jpg" alt="SLika 4">
+              <img src="/izlozby4.jpg" alt=" Slika 5">
+              <!-- Dodaj više slika po potrebi -->
+            </div>
+            <button class="strelica prev" aria-label="Prethodna" dir="ltr">&#10094;</button>
+            <button class="strelica next" aria-label="Sledeća" dir="ltr">&#10095;</button>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div  class="footerdıv">
+        <p class="footer-klasa">&copy; 2024 <a href="https://srednjaskoladrvar.com/">Srednja Škola Drvar</a></p>
+      </div>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
